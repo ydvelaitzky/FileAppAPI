@@ -8,7 +8,7 @@ namespace FileAppAPI
         private readonly IMailService mailService;
         public BLFile(IMailService mailService)
         {
-            this.mailService = mailService; 
+            this.mailService = mailService;  
         }
         public void AddNewFile(FileModel f)
         {
