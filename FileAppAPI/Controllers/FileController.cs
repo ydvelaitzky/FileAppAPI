@@ -34,7 +34,7 @@ namespace FileAppAPI.Controllers
         // POST: FileController/Delete/5
 
         [ValidateAntiForgeryToken]
-        [HttpDelete(Name = "Delete")]
+        [HttpDelete(Name = "Delete")] 
         public ActionResult Delete(int id, IFormCollection collection)
         {
             try
